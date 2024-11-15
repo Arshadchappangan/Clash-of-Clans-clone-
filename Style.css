@@ -4,6 +4,8 @@ body{
 
 #main{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #head{
@@ -34,6 +36,7 @@ body{
     position: fixed;
     top: 0;
     left: 10%;
+    z-index: 10;
 }
 
 #logo{
@@ -88,14 +91,17 @@ body{
     height: 30px;
 }
 
-#phone{
+.phone-img{
     height: 460px;
-    margin-top: 76px;
-    margin-left: -261px;
     float: left;
 }
 
-#dnld-content{
+#phone-img-1{
+    margin-top: 76px;
+    margin-left: -261px;
+}
+
+.content{
     width: 38%;
     height: 460px;
     float: left;
@@ -109,7 +115,6 @@ body{
     font-size: 34px;
     line-height: 1.25;
     letter-spacing: -.025em;
-    text-align: center;
 }
 
 .content-txt{
@@ -133,6 +138,7 @@ body{
     height: 600px;
     float: left;
     margin-left: 199px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,4 +186,47 @@ body{
     height: 45px;
     width: 210px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+#phone-2-bg{
+    position: absolute;
+    margin-top: 20px;
+    height: 580px;
+    left: -190px;
+}
+
+#phone-2-txt{
+    position: relative;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#follow-head{
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#phone-img-2{
+    position: relative;
+    left: 928px;
+    top: -502px;
+}
+
+.phone-part{
+    height: 500px;
+}
+#social-media{
+    position: relative;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.social-icon{
+    height: 25px;
 }
