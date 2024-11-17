@@ -115,6 +115,7 @@ body{
     font-size: 34px;
     line-height: 1.25;
     letter-spacing: -.025em;
+    text-transform: uppercase;
 }
 
 .content-txt{
@@ -203,7 +204,7 @@ body{
     margin-left: 50px;
 }
 
-#follow-head{
+.head-2{
     font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: bold;
@@ -230,3 +231,95 @@ body{
 .social-icon{
     height: 25px;
 }
+
+#blue-section{
+    width: 100%;
+    height: 180px;
+    background-image: linear-gradient(180deg, #245fc6 1%, #2887f0);
+    color: white;
+    display: flex;
+}
+
+#txt-blue-section{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#blue-button{
+    background-color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+
+#blue-pic{
+    height: 230px;
+    margin-top: -50px;
+}
+
+#footer{
+    width: 100%;
+    height: 440px;
+    background-color: black;
+}
+
+#footer-content{
+    color: white;
+    margin-left: 244px;
+    margin-top: 30px;
+    width: 70%;
+}
+
+#footer-media-icons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#social-media-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#line{
+    margin-top: 40px;
+    border-color: rgb(82, 78, 78);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+li{
+    float: left;
+}
+
+#address{
+width: 125px;
+line-height: 1.75;
+color: #797777;
+}
+
+#footer-address{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-footer{
+    margin-top: 50px;
+}
+
